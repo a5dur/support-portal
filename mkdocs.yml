@@ -1,0 +1,80 @@
+site_name: datHere Support Portal
+site_description: Documentation for datHere products including CKAN DMS, Analyze datHere, AI Chatbot, qsv, and qsv pro
+docs_dir: freshdesk_export
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+  - tags
+
+nav:
+  - Home: index.md
+  - AI Chatbot:
+      - Quick Start Guide: 'AI Chatbot/datHere AI Chatbot/AI Chatbot Quick Start Guide.md'
+      - Examples & Use Cases: 'AI Chatbot/datHere AI Chatbot/AI Chatbot Examples & Use Cases.md'
+      - FAQ & Troubleshooting: 'AI Chatbot/datHere AI Chatbot/AI Chatbot FAQ & Troubleshooting.md'
+  - Analyze datHere:
+      - Datasets:
+          - Creating Datasets: 'Analyze datHere/Datasets/Creating Datasets in Analyze- Your Guide to Data Visualization.md'
+      - Tutorials:
+          - Charts & Dashboards: 'Analyze datHere/Tutorials/How to Make Charts and Dashboard on Analyze datHere.md'
+          - Charts via datHere: 'Analyze datHere/Tutorials/How to Make Charts using Analyze through datHere.md'
+          - Bar Chart: 'Analyze datHere/Tutorials/How to Make a Bar Chart on Analyze datHere.md'
+          - Pie Chart: 'Analyze datHere/Tutorials/How to Make a Pie Chart on Analyze datHere.md'
+          - Heatmap: 'Analyze datHere/Tutorials/How to Make a Heatmap on Analyze datHere.md'
+          - Line Chart: 'Analyze datHere/Tutorials/How to Make a Line Chart on Analyze datHere.md'
+          - Charts via CKAN API: 'Analyze datHere/Tutorials/How to Make a Chart and Dashboard using Ckan API.md'
+          - Demographic Dashboard: 'Analyze datHere/Tutorials/Navigating the Demographic Dashboard.md'
+          - Economic Dashboard: 'Analyze datHere/Tutorials/Navigating the Economic Dashboard.md'
+          - Housing Dashboard: 'Analyze datHere/Tutorials/Navigating the Housing Dashboard.md'
+          - Social Dashboard: 'Analyze datHere/Tutorials/Navigating the Social Dashboard.md'
+  - CKAN DMS:
+      - Datasets:
+          - Datasets in CKAN: 'datHere CKAN DMS/CKAN Datasets/Datasets in CKAN.md'
+          - Publishing Datasets: 'datHere CKAN DMS/CKAN Datasets/Publishing Datasets in CKAN- [Guide].md'
+          - Reordering Resources: 'datHere CKAN DMS/CKAN Datasets/Reordering Resources in CKAN Dataset- [Guide].md'
+      - Interface:
+          - Navigating CKAN: 'datHere CKAN DMS/CKAN Interface/Navigating the CKAN Interface.md'
+          - Advanced Search: 'datHere CKAN DMS/CKAN Interface/Advanced Search Techniques in CKAN.md'
+          - Managing Profile: 'datHere CKAN DMS/CKAN Interface/Managing your Profile in CKAN.md'
+      - User Resources:
+          - API Tokens: 'datHere CKAN DMS/CKAN User Resources/Using API Tokens in CKAN [Guide].md'
+          - CKAN Data API: 'datHere CKAN DMS/CKAN User Resources/Using the CKAN Data API [GUIDE].md'
+          - Setting Up DataStore: 'datHere CKAN DMS/CKAN User Resources/Setting Up DataStore on CKAN.md'
+          - Organizations: 'datHere CKAN DMS/CKAN User Resources/Organizations in CKAN, Adding, Managing and Deleting..md'
+  - qsv pro:
+      - General Info:
+          - Overview: 'qsv pro/General Info/Overview of qsv pro.md'
+          - FAQs: 'qsv pro/General Info/qsv pro FAQs.md'
+          - stats Command Output: 'qsv pro/General Info/stats Command Output Explanation.md'
+          - Install on Ubuntu: 'qsv pro/General Info/How to install qsv pro on Ubuntu 22.04.md'
+          - WebView2 Requirement: 'qsv pro/General Info/WebView2 Windows Requirement - qsv pro.md'
+          - Visual C++ Requirement: 'qsv pro/General Info/Visual C++ Redistributable Windows Requirement - qsv pro.md'
+      - Workflow:
+          - Upload to CKAN: 'qsv pro/Workflow/Step-by-Step Guide- Data Upload to CKAN in qsv pro.md'
+  - qsv:
+      - Recipes:
+          - Lua Scripts with qsv: 'qsv/qsv Recipes/How to use Lua scripts with qsv.md'
+          - Lua Script with QSV Commands: 'qsv/qsv Recipes/How to Use Lua Script with QSV Commands.md'
+          - Upload Lua Scripts to GitHub: 'qsv/qsv Recipes/How to Upload Lua Scripts on Github.md'
+          - Math Transformations: 'qsv/qsv Recipes/Quick Mathematical Transformations with Lua Embedded Scripts in qsv.md'
+          - Accent2English Recipe: 'qsv/qsv Recipes/Using "Accent2English" recipe with qsv.md'
+          - Calculate Age Recipe: 'qsv/qsv Recipes/Using "Calculate Age" recipe with qsv.md'
+          - ISBN10 to ISBN13: 'qsv/qsv Recipes/Using qsv recipe to convert ISBN10 to ISB13 format.md'
+          - Validate ISBN Codes: 'qsv/qsv Recipes/Using qsv recipe to Validate ISBN codes.md'
+          - Text to Title Case: 'qsv/qsv Recipes/Using qsv Recipe to Convert Text to Title Case.md'
+          - Trim Whitespaces: 'qsv/qsv Recipes/Using qsv Recipe to Trim Whitespaces from Multiple Columns.md'
+          - Decode HTML/XML Entities: 'qsv/qsv Recipes/Using qsv Recipe to Decode HTML-XML Entities in CSV Columns.md'
