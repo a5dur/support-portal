@@ -1,0 +1,82 @@
+/* ── datHere brand colors ─────────────────────────────────────────────────── */
+/* Primary: dark navy  #0E1C3A (hexagon icon)                                  */
+/* Accent:  bright blue #1B6DE8 (logotype "dat" text)                          */
+
+:root {
+  --md-primary-fg-color:              #0E1C3A;
+  --md-primary-fg-color--light:       #162040;
+  --md-primary-fg-color--dark:        #080F1E;
+  --md-primary-bg-color:              #ffffff;
+  --md-primary-bg-color--light:       rgba(255, 255, 255, 0.7);
+  --md-accent-fg-color:               #1B6DE8;
+  --md-accent-fg-color--transparent:  rgba(27, 109, 232, 0.1);
+  --md-accent-bg-color:               #ffffff;
+}
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.md-header {
+  background-color: #0E1C3A;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Keep header text/icons crisp white */
+.md-header__title,
+.md-header__button,
+.md-header__topic {
+  color: #ffffff;
+}
+
+/* ── Navigation tabs ──────────────────────────────────────────────────────── */
+.md-tabs {
+  background-color: #162040;
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ffffff;
+}
+
+/* Active tab underline uses brand blue */
+.md-tabs__indicator {
+  background-color: #1B6DE8;
+}
+
+/* ── Sidebar active item ──────────────────────────────────────────────────── */
+.md-nav__link--active {
+  color: #1B6DE8 !important;
+  font-weight: 600;
+}
+
+/* ── Links ────────────────────────────────────────────────────────────────── */
+.md-content a {
+  color: #1B6DE8;
+}
+
+.md-content a:hover {
+  color: #0E1C3A;
+}
+
+/* ── Search highlight ─────────────────────────────────────────────────────── */
+.md-search-result mark {
+  color: #1B6DE8;
+  background-color: rgba(27, 109, 232, 0.12);
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+.md-footer {
+  background-color: #0E1C3A;
+}
+
+.md-footer-meta {
+  background-color: #080F1E;
+}
+
+/* ── Logo sizing ──────────────────────────────────────────────────────────── */
+.md-header__button.md-logo img {
+  height: 32px;
+  width: auto;
+}

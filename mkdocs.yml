@@ -1,10 +1,13 @@
 site_name: datHere Support Portal
 site_description: Documentation for datHere products including CKAN DMS, Analyze datHere, AI Chatbot, qsv, and qsv pro
+site_url: https://a5dur.github.io/support-portal/
 docs_dir: freshdesk_export
 site_dir: site
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -13,8 +16,28 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
+  font:
+    text: Inter
+    code: Roboto Mono
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:Info@dathere.com
+      name: Info@dathere.com
+    - icon: fontawesome/solid/phone
+      link: tel:+17327071866
+      name: +1 732 707 1866
+
+copyright: >
+  Copyright &copy; 2026 datHere, Inc. &nbsp;&bull;&nbsp;
+  <a href="mailto:Info@dathere.com">Info@dathere.com</a> &nbsp;&bull;&nbsp;
+  +1 732 707 1866
 
 plugins:
   - search
